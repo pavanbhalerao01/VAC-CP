@@ -1,0 +1,114 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Data Files (large datasets)
+*.csv
+diabetic_data.csv
+
+# Model Files
+*.pkl
+*.h5
+*.model
+*.joblib
+
+# Output Files
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Logs
+*.log
+logs/
+
+# Machine Learning Specific
+catboost_info/
+wandb/
+mlruns/
+.mlflow/
+
+# Test Coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Distribution / Packaging
+*.manifest
+*.spec
+
+# PyInstaller
+*.exe
+*.dll
+
+# Documentation
+docs/_build/
+
+# Environment Variables
+.env
+.env.local
+
+# OS Files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Temporary Files
+*.tmp
+*.bak
+*.swp
+*.swo
+temp/
+tmp/
+
+# Project Specific
+run_output.txt
+*.txt.bak
